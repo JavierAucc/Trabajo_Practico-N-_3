@@ -2,57 +2,177 @@
 <html>
 	<head>
 	<meta charset="UTF-8">
-	<title>AUCACHI JAVIER WALTER</title>
+	<title>PROGRAMACION VISUAL 2024</title>
 	</head>
 	<body>
-	<header>
-		<h1>
-		MI PRIMER PAGINA WEB
-		</h1>
-	</header>
-	<nav>
-			<ul>
-				<li><a href="https://www.fi.unju.edu.ar">Fi Unju</a></li>
-				<li><a href="https://www.youtube.com.ar">Youtube</a></li>
-				<li><a href="https://www.tiktok.com.ar">Tik tok</a></li>
-			</ul>
-	</nav>
-	<main>
-		<section id="inicio">
-			<h2>SECCION UNO</h2>
+		<header style="background-color:  #33FFC1;">
+			<h1>
+			QUE ES JAVA?
+			</h1>
+			<p>Es una tecnologia que incluye un lenguaje de programacion y una plataforma de desarrollo.</p> 
+		</header>
+		<nav style="background-color:  #FF338D;">
+				<ul>
+					<li><a href="https://www.java.com/es/download/help/whatis_java.html" target="_blank">Informacion sobre Java</a></li>
+					<li><a href="https://www.java.com/es/download/faq/index_general.html" target="_blank">Preguntas Generales sobre Java</a></li>
+					<li><a href="https://www.java.com/es/" target="_blank">Descargar Paquete Java </a></li>
+				</ul>
+		</nav>
+		<main >
+			<section style="background-color:  #BB33FF;">
+				<h2>Plataforma Java</h2>
+				<p>
+						Por definición, una plataforma es el ambiente hardware o software sobre el cual se puede
+					ejecutar un programa. La mayoría de las plataformas actuales se pueden describir como una
+					combinación de un sistema operativo y su hardware subyacente; por ejemplo, un pc con su
+					sistema operativo Windows se denomina comúnmente plataforma Windows, una notebook con
+					una distribución Linux se denomina plataforma Linux y un celular con Android se conoce como
+					plataforma Android.
+				</p>
+				<p>
+						La plataforma Java difiere respecto de las plataformas mencionadas en el párrafo anterior
+					debido a que es una plataforma software que se ejecuta sobre las prestaciones que brinda otra
+					plataforma que gestiona el hardware (denominada plataforma base) 
+				</p>
+				<img/ src="image/imagen1.png" alt="Plataforma Java"  width="400" height="300">
+				<p> Esto significa que se puede montar la plataforma Java sobre cualquier plataforma base.
+					De la Figura 1 se puede concluir que el objetivo de la plataforma Java consiste en poder ejecutar
+					sobre la plataforma base los programas realizados con el lenguaje Java.
+				</p>
+				<p>La figura 1 muestra los componentes principales de la plataforma Java:</p>
+				<ol>
+					<li>La máquina virtual de Java (Java Virtual Machine, JVM)</li>
+					<li>La Interfaz de Programación de Aplicaciones Java (Java Application Programming
+						Interfaces, Java API)
+					</li>
+				</ol>
+			</section>
+			<section style="background-color:  #33DAFF;">
+				<h3>El lenguaje de programación Java</h3>
+				<p>
+					Es un lenguaje de programación de alto nivel. Su creador James Gosling lo define en base a sus
+				características: sencillo, orientado a objetos, distribuido, interpretado, robusto, seguro,
+				independiente de las arquitecturas, portable, eficaz, multitarea y dinámico. Antes de poder
+				describir en detalle cada una de estas características es conveniente indicar como funciona el
+				proceso de desarrollo de una aplicación Java.
+				</p>
+				<p>
+				En el lenguaje de programación Java, todo el código fuente se escribe en archivos de texto plano
+				con la extensión .java. Estos archivos fuente son entonces compilados por una herramienta de
+				la plataforma denominada compilador javac guardando el
+				resultado en archivos con el mismo nombre, pero con
+				extensión .class. Un archivo .class no contiene código nativo
+				para el procesador de la plataforma base, sino que contiene un
+				tipo de código denominado bytecode (lenguaje binario
+				intermedio). Los bytecode se pueden considerar el lenguaje
+				máquina de la JVM, debido a que la JVM es la encargada de
+				traducir los bytecode en el código máquina del ordenador
+								</p>
+			</section>
+			<section style="background-color:  #E6FF33;">
+				<h2>Características de Java</h2>
+				<table>
+					<tr>
+						<th>Sencillo</th>
+						<th>Orientado a Objetos</th>
+						<th>Distribuido</th>
+						<th>Interpretado</th>
+						<th>Robusto</th>
+						<th>Independiente de Arquitecturas</th>
+						<th>Seguro</th>
+						<th>Portable</th>
+						<th>Eficaz</th>
+						<th>Multitarea</th>
+						<th>Dinamico</th>
+					</tr>
+					<tr>
+						<td>
+								La sintaxis de Java es similar a la de los lenguajes C y C++, pero evita las
+							características semánticas que los vuelven complejos, confusos y poco seguros.
+						</td>
+						<td>
+							Salvo los tipos de datos primitivos, todo en Java es concebido
+							como un objeto. Y, además, Java se ha provisto de clases incorporadas que encapsulan
+							los tipos primitivos (los wrappers). Por lo tanto, Java es un lenguaje de programación
+							orientado a objetos y diseñado según el modelo de otros lenguajes.
+						</td>
+						<td>
+							Java implementa los protocolos de red estándar, lo que permite desarrollar
+							aplicaciones cliente/servidor en arquitecturas distribuidas, con el fin de invocar
+							tratamientos y/o recuperar datos de máquinas remotas. Con este fin, Java estándar
+							cuenta con API´s que permiten crear aplicaciones cliente/servidor distribuidas.
+						</td>
+						<td>
+							 La ejecución de un programa Java se realiza mediante el intérprete JVM.
+							Esto hace que sea más lento. Sin embargo, conlleva también sus ventajas, en particular
+							el hecho de no tener que recompilar un programa Java de un sistema a otro porque
+							basta, para cada uno de los sistemas, con tener su propia máquina virtual.
+						</td>
+						<td>
+							Java es un lenguaje fuertemente tipado y estricto
+						</td>
+						<td>
+							Dados los campos de aplicación de Java, es muy importante que haya un
+							mecanismo que vigile la seguridad de las aplicaciones y los sistemas. El motor de
+							ejecución de Java (Java Runtime Environment, JRE) es el encargado de esta tarea.
+						</td>
+						<td>
+							El compilador Java no produce un código específico
+							para un tipo de arquitectura. De hecho, el compilador genera un bytecode que es
+							independiente de cualquier arquitectura, de todo sistema operativo y de todo
+							dispositivo de gestión de la interfaz gráfica de usuario (GUI)
+						</td>
+						<td>
+							Java es portable gracias a que se trata de un lenguaje interpretado (haciendo
+							referencia al proceso de interpretar bytecode). Además, a diferencia del lenguaje C y
+							C++, los tipos de datos primitivos (numéricos, carácter y booleano) de Java tienen el
+							mismo tamaño, sea cual sea la plataforma en la cual se ejecuta el código.
+						</td>
+						<td>
+							Incluso si un programa Java es interpretado, lo cual es más lento que un
+							programa nativo, Java pone en marcha un proceso de optimización de la interpretación
+							del código, llamado JIT (Just In Time) o HotSpot. Este proceso compila el bytecode Java
+							en código nativo en tiempo de ejecución, lo que permite alcanzar el mismo rendimiento
+							que un programa escrito en lenguaje C o C++.
+						</td>
+						<td>
+							Java permite desarrollar aplicaciones que ponen en marcha la ejecución
+							simultánea de varios hilos (o procesos ligeros). Esto permite efectuar simultáneamente
+							varias tareas, con el fin de aumentar la velocidad de las aplicaciones, ya sea
+							compartiendo el tiempo del CPU o repartiendo las tareas entre varios procesadores
+						</td>
+						<td>
+						En Java, el programador no tiene que editar los vínculos (obligatorio en C y
+						C++). Por lo tanto, es posible modificar una o varias clases sin tener que efectuar una
+						actualización de estas modificaciones para el conjunto del programa.
+						</td>
+					</tr>
+				</table>
+			</section>
+		</main>
+		<aside style="background-color:  #FFCE33;">
+			<h2>Programación</h2>
 			<p>
-				Analista programador universitario
+				La programación informática es el arte del proceso por el cual se limpia, codifica, traza y protege el
+				código fuente de programas computacionales, en otras palabras, es indicarle a la computadora lo que tiene que hacer. 
 			</p>
-			<h3>Docentes</h3>
-			<ol>
-				<li> ARIEL VEGA</li>
-				<li> GUTSO SOSA</li>
-				<li> CAROLINA APAZA</li>
-				<li> JUAN CARLOS</li>
-			</ol>
+			<p>
+				La programación informática es una de las habilidades esenciales que aprendes cuando estudias informática.
+			</p>
+			<p>
+				Por medio de la programación se establecen los pasos a seguir para la creación del código fuente de los 
+				diversos programas informáticos.
+			</p>
+			<h3>QUIERES APRENDER A PROGRAMAR?</h3>
+			<a href="https://www.youtube.com/c/Programaci%C3%B3nATS" target="_blank">
+			<img/ src="image/unnamed.jpg" alt="Programacion ATS" width="400" height="300"></a>
 			
-		</section>
-		<section>
-			<h2>SECCION DOS</h2>
-			<p>
-				segundo parrafo
-			</p>
-		</section>
-		<section>
-			<h2>SECCION TRES</h2>
-			<p>
-				tercer parrafo
-			</p>
-		</section>
-	</main>
-	<aside>
-		<h2>CONTENIDO ADICCIONAL</h2>
-		<p>
-			parrafo del asaid
-		</p>
-	</aside>
-	<footer style="background-color: #FF0000;">
-	 	pie de pagina
-	</footer>
+		
+		</aside>
+		<footer style="background-color:  #3380FF;">
+		 	<p>
+		 	Contacto: newellsito@gmail.com
+		 	</p>
+		</footer>
 	</body>
 </html>
