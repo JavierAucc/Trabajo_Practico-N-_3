@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Trabajo practico 3</title>
+<link rel="stylesheet" href="/css/styles.css"></link>
+</head>
+	<body>
+	<div >
+		<header id="header">
+					<h1>
+					PROGRAMACION VISUAL
+					</h1>
+					<h2>Trabajo Practico N3</h2>
+		</header>
+	</div>
+		<div class="container">
+		<main class="main">
+			<h1>Formulario de datos</h1>
+			<form action="">
+			
+				<label for="dni"> Ingrese DNI: </label>
+				<input type="number" id="dni" required placeholder="Ingrese numero de DNI" name="dni" ></input><br>
+				
+				<label for="nombre"> Ingrese Nombre: </label>
+				<input type="text" id="nombre" required placeholder="Ingrese nombres" name="nombres"></input><br>
+				
+				<label for="apellido"> Ingrese Apellido: </label>
+				<input type="text" id="apellido" required placeholder="Ingrese apellidos" name="apellidos"></input><br>
+				
+				<label for="fechaNacimiento"> Ingrese Fecha de Nacimiento: </label>
+				<input type="date" id="fechaNacimiento" required placeholder="Ingrese fechaNacimiento" name="fechaNacimiento"></input><br>
+				
+				<label for="genero"> Seleccione Genero: </label><br>
+				<label for="genero"> Masculino: </label>
+				<input type="radio" id="genero" value="Masculino" name="genero"></input><br>
+				<label for="genero"> Femenino: </label>
+				<input type="radio" id="genero" value="Femenino" name="genero"></input><br>
+				<label for="genero"> Aliade: </label>
+				<input type="radio" id="genero" value="Aliade" name="genero"></input><br>
+				
+				<label for="correo"> Correo Electronico: </label>
+				<input type="email" id="correo" name="correoElectronico" required placeholder="Ingrese Correo Electronico" ></input><br>
+				
+				<label for="domicilio"> Domicilio: </label>
+				<input type="text" id="domicilio" required placeholder="Ingrese domicilio" name="domicilio"></input><br>
+				
+				<label for="provincia"> Provincia: </label>
+				<select id="provincia" name="provincia" required>
+						<option value="Jujuy" selected>Jujuy</option>
+						<option value="Salta" >Salta</option>
+						<option value="Tucuman" >Tucuman</option>
+						<option value="Santiago del Estero" >Santiago del Estero</option>
+						<option value="La Rioja" >La Rioja</option>
+						<option value="San Luis" >San Luis</option>
+						<option value="Cordoba" >Cordoba</option>
+						<option value="Mendoza" >Mendoza</option>
+						<option value="Corrientes" >Corrientes</option>
+						<option value="Neuquen" >Neuquen</option>
+						<option value="Buenos Aires" >Buenos Aires</option>
+						<option value="Misiones" >Misiones</option>
+						
+
+				</select><br>
+				
+					<label for="celular"> telefono Celular: </label>
+					<input type="number" id="celular"  name="celular" placeholder="ingrese celular" ></input><br>
+					
+					<label> Categorias de Interes</label>
+					<div>
+						<label for="intereses"> Futbol: </label>
+						<input type="checkbox" id="intereses"  name="intereses"></input><br>
+						<label for="intereses"> Video Juegos: </label>
+						<input type="checkbox" id="intereses"  name="intereses"></input><br>
+						<label for="intereses"> Gastronomia: </label>
+						<input type="checkbox" id="intereses"  name="intereses"></input><br>
+						<label for="intereses"> Canto: </label>
+						<input type="checkbox" id="intereses"  name="intereses"></input><br>
+						<label for="intereses"> Baile: </label>
+						<input type="checkbox" id="intereses"  name="intereses"></input><br>
+					</div><br>
+					
+					<label for="sugerencias"> Sugerencias: </label><br>
+					<textarea rows="10" cols="60" id="sugerencias" placeholder="ingrese Comentarios" name="sugerencias"></textarea><br>
+					
+					<label for="password"> Password: </label>
+					<input type="password" id="password" required placeholder="Ingrese Password" name="password" ></input><br>
+					
+					<label for="terminosYcondiciones"> Acepto los Terminos y Condiciones: </label>
+					<input type="checkbox" id="terminosYcondiciones" name="terminosYcondiciones" required></input><br>
+					
+					<label for="infoRelativa"> Acepto recibir Informacion Relativa de la Emppresa: </label>
+					<input type="checkbox" id="infoRelativa" name="infoRelativa"></input><br>
+					
+				<input type="submit" value="Guardar"></input>
+				<input type="button" value="Cancelar"></input>
+				
+			</form>
+		</main>
+		</div>
+		<footer>
+		<h1>Contactos</h1>
+			<p>newellsito@gmail.com</p>
+			<img alt="logo javier" src="/image/images.jpeg">
+		</footer>
+		
+	</body>
+</html>
