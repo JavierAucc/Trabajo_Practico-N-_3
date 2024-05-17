@@ -1,12 +1,24 @@
 @charset "UTF-8";
-footer{
-	background-color:yellow
+#footer{
+	background-color:rgba(44,247,219,0.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+	font-weight: 700;
+	font-style:"Times New Roman";
+	font-size:24pt;
+	
 }
 #header{
-	background-color:yellow
+	background-color:rgba(44,247,219,0.4);
+	font-weight: 700;
+	font-style:"Times New Roman";
+	font-size:24pt;
+	text-align: center;
 }
 .main{
-	background-color:lightblue;
+	background-color:rgba(44,247,219,0.4);
 	padding:50px;
 	margin:30px;
 	flex:3;
@@ -17,8 +29,93 @@ footer{
 	width:100%;
 }
 body {
-  background-image: url('/image/fondo1.jpg');
+  background-image: url('/image/teclado2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  font-weight: 700;
+  font-style:"Times New Roman";
+  font-size:24pt;
+ 
 }
+
+#dni {
+  width: 350px; /* Ancho del campo de entrada */
+  height: 20px; /* Altura del campo de entrada */
+  font-size: 18pt; /* Tamaño de la fuente */
+  border: 1px solid #ccc; /* Borde del campo */
+  border-radius: 4px; /* Bordes redondeados */
+  padding: 4px 12px; 
+}
+#nombre {
+  width: 350px;
+  height: 20px; 
+  font-size: 18pt; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 12px;
+}
+#apellido {
+  width: 350px; 
+  height: 20px; 
+  font-size: 18pt; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  padding: 4px 12px;
+}
+#fechaNacimiento {
+  width: 350px;
+  height: 20px;
+  font-size: 18pt;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 12px;
+}
+#correo {
+  width: 350px;
+  height: 20px;
+  font-size: 18pt;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 12px;
+}
+#domicilio {
+  width: 350px;
+  height: 20px;
+  font-size: 18pt;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 12px;
+}
+#celular {
+  width: 350px;
+  height: 20px;
+  font-size: 18pt;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 12px;
+}
+#password{
+  width: 350px;
+  height: 20px;
+  font-size: 18pt;
+ padding: 4px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#sugerencias{
+  font-size: 18pt; 
+}
+#genero {
+  width: 20px;
+  height: 20px;
+}
+#provincia{
+  width: 250px;
+  height: 40px;
+  font-size: 18pt;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 12px;
+}
+
