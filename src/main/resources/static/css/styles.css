@@ -8,7 +8,9 @@
 	font-weight: 700;
 	font-style:"Times New Roman";
 	font-size:24pt;
-	
+	padding:20px;
+	margin:60px;
+	flex:2;
 }
 #header{
 	background-color:rgba(44,247,219,0.4);
@@ -16,12 +18,16 @@
 	font-style:"Times New Roman";
 	font-size:24pt;
 	text-align: center;
+	padding:20px;
+	margin:60px;
+	flex:2;
 }
 .main{
 	background-color:rgba(44,247,219,0.4);
-	padding:50px;
-	margin:30px;
+	padding:100px;
+	margin:60px;
 	flex:3;
+	text-align: center;
 }
 .container{
 	display:flex;
@@ -36,63 +42,63 @@ body {
   font-weight: 700;
   font-style:"Times New Roman";
   font-size:24pt;
- 
+
 }
 
 #dni {
-  width: 350px; /* Ancho del campo de entrada */
-  height: 20px; /* Altura del campo de entrada */
-  font-size: 18pt; /* Tamaño de la fuente */
-  border: 1px solid #ccc; /* Borde del campo */
-  border-radius: 4px; /* Bordes redondeados */
+  width: 350px;
+  height: 20px;
+  font-size: 18pt; 
+  border: 6px solid rgb(34, 34, 239,0.5);
+  border-radius: 6px;
   padding: 4px 12px; 
 }
 #nombre {
   width: 350px;
   height: 20px; 
   font-size: 18pt; 
-  border: 1px solid #ccc;
-  border-radius: 4px;
+ border: 6px solid rgb(34, 34, 239,0.5);
+  border-radius: 6px;
   padding: 4px 12px;
 }
 #apellido {
   width: 350px; 
   height: 20px; 
   font-size: 18pt; 
-  border: 1px solid #ccc; 
-  border-radius: 4px;
+  border: 6px solid rgb(34, 34, 239,0.5);
+  border-radius: 6px;
   padding: 4px 12px;
 }
 #fechaNacimiento {
   width: 350px;
   height: 20px;
   font-size: 18pt;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+   border: 6px solid rgb(34, 34, 239,0.5);
+  border-radius: 6px;
   padding: 4px 12px;
 }
 #correo {
   width: 350px;
   height: 20px;
   font-size: 18pt;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+   border: 6px solid rgb(34, 34, 239,0.5);
+  border-radius: 6px;
   padding: 4px 12px;
 }
 #domicilio {
   width: 350px;
   height: 20px;
   font-size: 18pt;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+   border: 6px solid rgb(34, 34, 239,0.5);
+  border-radius: 6px;
   padding: 4px 12px;
 }
 #celular {
   width: 350px;
   height: 20px;
   font-size: 18pt;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+   border: 6px solid rgb(34, 34, 239,0.5);
+  border-radius: 6px;
   padding: 4px 12px;
 }
 #password{
@@ -100,11 +106,13 @@ body {
   height: 20px;
   font-size: 18pt;
  padding: 4px 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+   border: 6px solid rgb(34, 34, 239,0.5);
+  border-radius: 6px;
 }
 #sugerencias{
   font-size: 18pt; 
+  border: 10px solid rgb(34, 34, 239,0.5);
+  border-radius: 6px;
 }
 #genero {
   width: 20px;
@@ -114,8 +122,8 @@ body {
   width: 250px;
   height: 40px;
   font-size: 18pt;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: 6px solid rgb(34, 34, 239,0.5);
+  border-radius: 6px;
   padding: 4px 12px;
 }
 
